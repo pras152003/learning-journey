@@ -22,15 +22,13 @@ Constraints:
 s[i] is a printable ascii character.
 
 
-  void reverseString(char* s, int sSize) {
-    char temp;
-    int i=0;
-    int j=sSize-1;
-    while(i<sSize/2){
-        temp=s[j];
-        s[j]=s[i];
-        s[i]=temp;
-        i++;
-        j--;
-    }
-}
+
+ logic
+
+ we need to create one temp character variable 
+     run the while loop upto half of size of string
+          copy right character to temp
+              and left character to right
+                  temp to left 
+                        increment left index
+                          decement right index
